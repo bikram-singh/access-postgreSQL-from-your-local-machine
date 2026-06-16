@@ -479,19 +479,6 @@ Test-NetConnection -ComputerName localhost -Port 5433
 
 **7.** When done: close the PuTTY window OR press `Ctrl+C` in the tunnel terminal
 
----
-
-## 🖥️ Windows-Specific Notes
-
-| Observation | Explanation |
-|---|---|
-| PuTTY window opens when running the tunnel command | Normal - Windows `gcloud` uses PuTTY (plink) instead of OpenSSH. Leave it open. |
-| `-q` flag causes `plink: unknown option "-q"` error | PuTTY does not support the `-q` quiet flag. Do not use it. |
-| `--` separator causes `unrecognized arguments` error | PowerShell does not pass `--` correctly to `gcloud`. Use `--ssh-flag` syntax instead. |
-| `gcloud components update` fails with permission error | Not required. Skip it. The existing `gcloud` version works fine. |
-| SSH key generation prompt on first run | Type `Y` - one-time only. Keys are saved to `C:\Users\USERNAME\.ssh\`. |
-| pgAdmin shows connection timeout on port `5432` | pgAdmin defaults to 5432. Always manually set port to `5433` in Connection tab. |
-| `set GCLOUD_SSH_CLIENT=openssh` in CMD has no effect | The `set` command only applies to that CMD session and gcloud may ignore it. Use `--tunnel-through-iap --ssh-flag` approach instead - it works reliably. |
 
 ---
 
