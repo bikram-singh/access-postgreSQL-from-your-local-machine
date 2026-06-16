@@ -69,6 +69,9 @@ To access the DHG Rate Automation Cloud SQL PostgreSQL 17 instance (`dhg-rateaut
 
 ## 🏛️ Architecture
 
+<img width="1536" height="1024" alt="postgres_iap_tunnel_architecture" src="https://github.com/user-attachments/assets/f1f4ba73-0928-451c-a3dc-9686fb47a434" />
+
+
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
 │                          Your Local Machine                              │
