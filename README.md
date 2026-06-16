@@ -361,6 +361,9 @@ gcloud compute ssh postgres-bastion --project=dhg-vaccine-rateauto-nonpord --zon
 
 > ⚠️ Do NOT close the PuTTY window. Do NOT press Ctrl+C in the terminal. Either action will drop the tunnel and disconnect pgAdmin.
 
+<img width="940" height="289" alt="image" src="https://github.com/user-attachments/assets/2ba5e6ad-f737-42bb-9a39-c902cf6c2782" />
+
+
 ---
 
 ## ✔️ Phase 6 - Verify Tunnel is Active
@@ -384,6 +387,9 @@ TcpTestSucceeded : True
 > ✅ `TcpTestSucceeded : True` confirms the tunnel is live and pgAdmin can connect.
 
 If `TcpTestSucceeded : False`, the tunnel is not running - go back to [Phase 5](#-phase-5---open-the-iap-tunnel) and re-run the tunnel command.
+
+<img width="940" height="342" alt="image" src="https://github.com/user-attachments/assets/de6c26de-352f-4080-a2b3-504aceda8b23" />
+
 
 ---
 
