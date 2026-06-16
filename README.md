@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="docs/gallery/DHG_logo.png" alt="DHG Logo" width="90" height="90"/>
 
 # 🐘 Access-PostgreSQL-from-Your-Local-Machine
 
@@ -16,7 +15,7 @@
 
 ---
 
-*Step-by-step runbook to connect to a private Cloud SQL PostgreSQL 17 instance (no public IP) from your local Windows machine using a Bastion VM, Google IAP TCP tunneling, and pgAdmin 4 - no VPN required.*
+*Connect to a private Cloud SQL PostgreSQL 17 instance (no public IP) from your local Windows machine using a Bastion VM, Google IAP TCP tunneling, and pgAdmin 4 - no VPN required.*
 
 </div>
 
@@ -45,9 +44,9 @@
 
 ## 🌐 Overview
 
-This runbook provides the **verified working procedure** to access the DHG Rate Automation Cloud SQL PostgreSQL 17 instance (`dhg-rateauto-postgres-dev`) from a local Windows machine using Google IAP (Identity-Aware Proxy) tunneling via a Bastion VM.
+To access the DHG Rate Automation Cloud SQL PostgreSQL 17 instance (`dhg-rateauto-postgres-dev`) from a local Windows machine using Google IAP (Identity-Aware Proxy) tunneling via a Bastion VM.
 
-> ✅ **Status: VERIFIED WORKING** - Successfully tested and connected on June 15, 2026.
+> ✅ **Status: VERIFIED WORKING**
 
 ### 🔑 Key Facts
 
