@@ -440,6 +440,17 @@ DHG-dev-postgres
 
 > ✅ **Connected.** You are now querying the Cloud SQL PostgreSQL 17 instance via IAP tunnel.
 
+<img width="940" height="703" alt="image" src="https://github.com/user-attachments/assets/d8310231-a3c6-4def-bbb8-7cb78d963eb2" />
+
+
+<img width="940" height="699" alt="image" src="https://github.com/user-attachments/assets/d894e085-c312-4c23-800f-db7c988affd8" />
+
+
+<img width="940" height="680" alt="image" src="https://github.com/user-attachments/assets/0a5bd2aa-8fcd-4167-b141-0eb714a8c785" />
+
+
+<img width="940" height="698" alt="image" src="https://github.com/user-attachments/assets/3b4cc859-adaa-47d2-8770-4e32235a56aa" />
+
 ---
 
 ## 📅 Daily Workflow
