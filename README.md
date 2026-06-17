@@ -536,7 +536,7 @@ gcloud compute firewall-rules create allow-iap-ingress \
 
 | Repository | Purpose |
 |---|---|
-| [`Access-PostgreSQL-from-Your-Local-Machine`](https://github.com/bikram-singh/Access-PostgreSQL-from-Your-Local-Machine) | DB access |
+| [`Access-PostgreSQL-from-Local-Machine`](https://github.com/bikram-singh/Access-PostgreSQL-from-Your-Local-Machine) | DB access |
 
 ---
 
